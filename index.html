@@ -35,35 +35,22 @@
   </head>
 
   <body class="text-center">
+    
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <!-- <h3 class="masthead-brand">Magic Chieze</h3> -->
+      <h1 class="cover-heading">Magic Chieze</h1>
+      <p class="lead">Pose ta question et Julien Chieze te répondra.</p>
+      <div class="input-group mb-3">
+        <input id="question"  type="text" class="form-control" placeholder="Question" aria-label="Question" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn btn-primary" type="button" id="button-addon2">Go</button>
         </div>
-      </header>
-
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading">Magic Chieze</h1>
-        <p class="lead">Pose ta question et Julien Chieze te répondra.</p>
-        <div class="input-group mb-3">
-          <input id="question"  type="text" class="form-control" placeholder="Question" aria-label="Question" aria-describedby="button-addon2">
-          <div class="input-group-append">
-            <button class="btn btn btn-primary" type="button" id="button-addon2">Go</button>
-          </div>
-        </div>
-        <div id="answer">
-          <video controls width="560" height="315" style="display: none;" autoplay>        
-            <source src="" type="video/mp4">
-            Sorry, your browser doesn't support embedded videos.
+      </div>
+      <div id="answer">
+        <video controls width="100%" style="display: none;" autoplay>        
+          <source src="" type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
         </video>
-        </div>
-      </main>
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-        </div>
-      </footer>
-
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
